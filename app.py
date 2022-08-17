@@ -1,8 +1,8 @@
 import streamlit as st
 from fastai.vision.all import *
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#import pathlib
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 
 def is_cat(x): return x[0].isupper() 
