@@ -1,3 +1,2 @@
 fastai
 streamlit
-git-lfs
