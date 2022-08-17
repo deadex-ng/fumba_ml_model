@@ -7,7 +7,7 @@ from fastai.vision.all import *
 
 def is_cat(x): return x[0].isupper() 
 
-learn = load_learner('model.pkl')
+#learn = load_learner('model.pkl')
 
 categories = ('Dog','Cat')
 
